@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height: "))
+weight = float(input("Enter your weight: "))
+print("Hello {}!".format(name))
+print("Your age is {}".format(age))
+print("Your height is {}".format(height))
+print("Your weight is {}".format(weight))
