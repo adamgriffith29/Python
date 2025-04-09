@@ -18,14 +18,14 @@ class Staff:
 
 def main():
     Staffs = [
-        Staff("Evan Kuntz", 100),
+        Staff("Evan", 100),
         Staff('Maddie', 97),
-        Staff("Eddie Leconte", 95),
-        Staff("Andrew Hanlon", 90),
-        Staff('Gregory Tagler', 86),
-        Staff("Jake Turnbull", 85),
-        Staff("Kyle Alpe", 70),
-        Staff("Kieran Sullivan", 65)
+        Staff("Eddie", 95),
+        Staff("Andrew", 90),
+        Staff('Gregory', 86),
+        Staff("Jake", 85),
+        Staff("Kyle", 70),
+        Staff("Kieran", 65)
     ]
     for staff in Staffs:
         status = input(f"Enter the attendance status for {staff.name} (tardy/absent/present): ").strip().lower()
